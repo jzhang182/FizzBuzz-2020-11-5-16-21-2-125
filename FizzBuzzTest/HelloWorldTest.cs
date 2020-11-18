@@ -46,5 +46,17 @@ namespace FizzBuzzTest
             //then
             Assert.Equal("1", actual);
         }
+
+        [Fact]
+        public void Should_return_2_given_2()
+        {
+            //given
+            var myCall = new FizzBuzz.FizzBuzz();
+            //when
+            string actual = myCall.Say(2);
+
+            //then
+            Assert.Equal("2", actual);
+        }
     }
 }
