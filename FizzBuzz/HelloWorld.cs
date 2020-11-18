@@ -26,6 +26,7 @@ namespace FizzBuzz
         public string Say(int count)
         {
             string word = string.Empty;
+
             if (count % 3 == 0)
             {
                 word += "Fizz";

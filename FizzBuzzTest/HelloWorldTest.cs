@@ -106,5 +106,17 @@ namespace FizzBuzzTest
             //then
             Assert.Equal("FizzBuzz", actual);
         }
+
+        [Fact]
+        public void Should_return_FizzBuzzWhizz_given_3_5_7()
+        {
+            //given
+            var myCall = new FizzBuzz.FizzBuzz();
+            //when
+            string actual = myCall.Say(3 * 5 * 7);
+
+            //then
+            Assert.Equal("FizzBuzzWhizz", actual);
+        }
     }
 }
