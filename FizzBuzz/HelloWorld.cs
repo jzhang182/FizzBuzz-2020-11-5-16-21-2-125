@@ -16,4 +16,16 @@ namespace FizzBuzz
             return dependency.Say();
         }
     }
+
+    public class FizzBuzz
+    {
+        public FizzBuzz()
+        {
+        }
+
+        public string Say(int count)
+        {
+            return "1";
+        }
+    }
 }
